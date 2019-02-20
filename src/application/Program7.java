@@ -1,14 +1,13 @@
-package curso;
+package application;
 
 import java.util.Locale;
 import java.util.Scanner;
 
 import util.Employess;
 
-public class Program {
+public class Program7 {
 
 	public static void main(String[] args) {
-
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
 		
@@ -59,6 +58,7 @@ public class Program {
 		}
 
 		sc.close();
+
 
 	}
 
